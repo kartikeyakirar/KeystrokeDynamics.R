@@ -1,8 +1,8 @@
-source(Classifier.R)
-dataurl1<-"/home/kartikeya/Downloads/DSL-StrongPasswordData.csv"
-dataurl2<-"/home/kartikeya/Downloads/DSL-StrongPasswordData1.csv"
-trainset<-read.csv(dataurl1,header = TRUE)
-traintest<-read.csv(dataurl2,header = TRUE)
+source("Classifier.R")
+source("readFrom.R")
+source("data.R")
+trainset<-readFrom(dataurl1,"csv")
+traintest<-readFrom(dataurl2,"csv")
 
 subjectlist<-function(data , subject){
   slist<- sort(levels(data$USER))

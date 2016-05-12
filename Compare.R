@@ -1,11 +1,11 @@
-Compare<-function(r1,r2,inelastic)
+Compare<-function(r1,r2,strech)
 {
   if (is.numeric(r1)||is.numeric(r2)) {
     write('Can\'t compare Rhythms before calling done()');
   }
   
   lengthofarr<-length(r1)
-  if (!inelastic) {
+  if (!strech) {
     dur1 <-sum(r1,na.rm = FALSE)
     dur2 <-sum(r2,na.rm = FALSE)
     
