@@ -1,4 +1,4 @@
-ntroduction
+Introduction
 ===============
 
 This is KeystrokeDynamics.R, a tool for analyzing keystroke dynamics in Web application and Software .
@@ -17,19 +17,19 @@ When typing a series of characters, the time the subject needs to find the right
 
 Project file Markdown
 ======================
-#Compare.R 
+####Compare.R 
 contains function comparerythm() which take Down Down time give nearness between 0 to 1
 
-#Classifire.R
+####Classifire.R
 contains all the classifire and distance matrics .
 
-#readFrom.R
+####readFrom.R
 conatains function readFrom() which read txt or csv file from url
 
-#gettingAndCleaning.R
+####gettingAndCleaning.R
 clean data according to algorithm
 
-#Data.R
+####Data.R
 contains all the required library and input urls
 
 Compatibility notes
@@ -40,4 +40,5 @@ Our R script uses the packges "nnclust" , "MASS", "kernlab"
 Refference
 =================
 http://www.biometric-solutions.com/
+
 http://www.cs.cmu.edu/~keystroke/
