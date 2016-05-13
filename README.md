@@ -32,6 +32,9 @@ clean data according to algorithm
 ####Data.R
 contains all the required library and input urls
 
+####templateMatch.R
+it matches one to many profile yield name of user
+
 Compatibility notes
 ======================
 Our R script uses the packges "nnclust" , "MASS", "kernlab"
