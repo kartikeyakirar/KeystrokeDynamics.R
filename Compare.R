@@ -1,4 +1,4 @@
-Compare<-function(r1,r2,strech)
+CompareRythm<-function(r1,r2,strech)
 {
   if (is.numeric(r1)||is.numeric(r2)) {
     write('Can\'t compare Rhythms before calling done()');
